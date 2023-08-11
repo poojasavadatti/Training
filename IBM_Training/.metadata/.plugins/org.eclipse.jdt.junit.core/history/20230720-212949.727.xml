@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="BlogRunner" project="TestProj" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="testRunners.BlogRunner" time="0.249" uniqueid="[engine:junit-vintage]/[runner:testRunners.BlogRunner]">
+    <testsuite name="Blog" time="0.249" uniqueid="[engine:junit-vintage]/[runner:testRunners.BlogRunner]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdABIZmlsZTovLy9DOi9Vc2Vycy9TdHVkZW50L0lCTV9UcmFpbmluZy9UZXN0UHJvai9zcmMvZmVhdHVyZXMvYmxvZy5mZWF0dXJleA==]">
+      <testcase name="Validate blog entering functionality" classname="Validate blog entering functionality" time="0.249" uniqueid="[engine:junit-vintage]/[runner:testRunners.BlogRunner]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdABIZmlsZTovLy9DOi9Vc2Vycy9TdHVkZW50L0lCTV9UcmFpbmluZy9UZXN0UHJvai9zcmMvZmVhdHVyZXMvYmxvZy5mZWF0dXJleA==]/[test:rO0ABXNyAChpby5jdWN1bWJlci5qdW5pdC5QaWNrbGVSdW5uZXJzJFBpY2tsZUlkAAAAAAAAAAECAAJJAApwaWNrbGVMaW5lTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cAAAABdzcgAMamF2YS5uZXQuVVJJrAF4LkOeSasDAAFMAAZzdHJpbmd0ABJMamF2YS9sYW5nL1N0cmluZzt4cHQASGZpbGU6Ly8vQzovVXNlcnMvU3R1ZGVudC9JQk1fVHJhaW5pbmcvVGVzdFByb2ovc3JjL2ZlYXR1cmVzL2Jsb2cuZmVhdHVyZXg=]">
+        <skipped>io.cucumber.junit.UndefinedStepException: The step "user is in blog page" is undefined. You can implement it using tne snippet(s) below:
+
+@Given("user is in blog page")
+public void user_is_in_blog_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+Some other steps were also undefined:
+
+@When("user enters data in search field")
+public void user_enters_data_in_search_field() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("data should appear in search field")
+public void data_should_appear_in_search_field() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</skipped>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

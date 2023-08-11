@@ -1,0 +1,17 @@
+package seleniumTest;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class WebdriverTest1 {
+
+static WebDriver driver;
+	public static void main(String[] args) {
+		
+		//selenium IDE-out of market
+		//selenium webdriver
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\004CL7744\\IBM_Training\\TestProj\\Resources\\chromedriver.exe");
+		driver=new ChromeDriver();
+	}
+
+}

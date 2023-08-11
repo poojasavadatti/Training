@@ -1,0 +1,92 @@
+package stepDefinition;
+
+
+
+import static org.junit.Assert.assertEquals;
+
+
+
+import java.time.Duration;
+
+
+
+import org.openqa.selenium.By;
+
+import org.openqa.selenium.WebDriver;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import org.openqa.selenium.chrome.ChromeOptions;
+
+
+
+import io.cucumber.java.en.Given;
+
+import io.cucumber.java.en.Then;
+
+import io.cucumber.java.en.When;
+
+
+
+public class BlogPage {
+
+	
+
+	WebDriver driver;
+
+	
+
+	@Given("user is in blog page")
+
+	public void navigateSerachPage() {
+
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\Student\\IBM_Training\\TestProj\\Resources\\chromedriver.exe");
+
+
+
+		ChromeOptions options=new ChromeOptions();
+
+
+
+		options.addArguments("--remote-allow-origins=*");
+
+
+
+		driver=new ChromeDriver(options);
+
+
+
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+
+
+
+		driver.manage().window().maximize();
+
+
+
+		driver.get("http://omayo.blogspot.com/");
+
+	}
+
+	
+
+	@When("user enters data in search field")
+
+	public void enterProduct() {
+
+		driver.findElement(By.name("q")).sendKeys("hello");
+
+	}
+
+	@Then("data should appear in search field")
+
+	public void dataAppear() {
+
+		assertEquals("hello", driver.findElement(By.name("q")).getAttribute("value"));
+
+		//driver.quit();
+
+	}
+
+}
+

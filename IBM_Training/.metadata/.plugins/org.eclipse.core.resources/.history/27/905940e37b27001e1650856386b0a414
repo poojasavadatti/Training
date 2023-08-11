@@ -1,0 +1,31 @@
+package stepDefinition;
+
+import java.time.Duration;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.cucumber.java.en.Given;
+
+public class BlogPage {
+	
+	WebDriver driver;
+	
+	@Given("user is in blog page")
+	public void navigateSerachPage() {
+		ystem.setProperty("webdriver.chrome.driver","C:\\Users\\004CL7744\\IBM_Training\\TestProj\\Resources\\chromedriver.exe");
+
+		ChromeOptions options=new ChromeOptions();
+
+		options.addArguments("--remote-allow-origins=*");
+
+		driver=new ChromeDriver(options);
+
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+
+		driver.manage().window().maximize();
+
+		driver.get("http://omayo.blogspot.com/");
+	}
+
+}

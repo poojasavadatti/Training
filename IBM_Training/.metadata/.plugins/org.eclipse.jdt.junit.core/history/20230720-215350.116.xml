@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="BlogRunner" project="TestProj" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="testRunners.BlogRunner" time="0.312" uniqueid="[engine:junit-vintage]/[runner:testRunners.BlogRunner]">
+    <testsuite name="Blog" time="0.312" uniqueid="[engine:junit-vintage]/[runner:testRunners.BlogRunner]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdABIZmlsZTovLy9DOi9Vc2Vycy9TdHVkZW50L0lCTV9UcmFpbmluZy9UZXN0UHJvai9zcmMvZmVhdHVyZXMvYmxvZy5mZWF0dXJleA==]">
+      <testcase name="Validate blog entering functionality" classname="Validate blog entering functionality" time="0.312" uniqueid="[engine:junit-vintage]/[runner:testRunners.BlogRunner]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdABIZmlsZTovLy9DOi9Vc2Vycy9TdHVkZW50L0lCTV9UcmFpbmluZy9UZXN0UHJvai9zcmMvZmVhdHVyZXMvYmxvZy5mZWF0dXJleA==]/[test:rO0ABXNyAChpby5jdWN1bWJlci5qdW5pdC5QaWNrbGVSdW5uZXJzJFBpY2tsZUlkAAAAAAAAAAECAAJJAApwaWNrbGVMaW5lTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cAAAABVzcgAMamF2YS5uZXQuVVJJrAF4LkOeSasDAAFMAAZzdHJpbmd0ABJMamF2YS9sYW5nL1N0cmluZzt4cHQASGZpbGU6Ly8vQzovVXNlcnMvU3R1ZGVudC9JQk1fVHJhaW5pbmcvVGVzdFByb2ovc3JjL2ZlYXR1cmVzL2Jsb2cuZmVhdHVyZXg=]">
+        <error>java.lang.IllegalStateException: The driver executable must exist: C:\Users\004CL7744\IBM_Training\TestProj\Resources\chromedriver.exe&#13;
+	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)&#13;
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)&#13;
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)&#13;
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:39)&#13;
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:233)&#13;
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)&#13;
+	at org.openqa.selenium.chrome.ChromeDriverService.createServiceWithConfig(ChromeDriverService.java:142)&#13;
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:70)&#13;
+	at stepDefinition.BlogPage.navigateSerachPage(BlogPage.java:55)&#13;
+	at ✽.user is in blog page(file:///C:/Users/Student/IBM_Training/TestProj/src/features/blog.feature:22)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>
